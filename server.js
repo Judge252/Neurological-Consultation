@@ -24,7 +24,7 @@ const clinic = Object.freeze({
     phoneOne: '052-6020026',
     phoneTwo: '04-6034691',
     displayEmail: 'The_clinic_t@gmail.com',
-    formTitle: 'טופס ייעוץ ובדיקה רפואית',
+    formTitle: 'טופס ייעוץ ובדיקה נוירולוגית',
     privacyNotice: 'המסמך מכיל מידע מוגן על-פי חוק הגנת הפרטיות',
 });
 

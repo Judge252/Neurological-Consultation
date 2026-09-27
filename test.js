@@ -165,7 +165,7 @@ test('medical consultation application', async (t) => {
             assert.equal(successResponse.status, 200);
             assert.equal((await successResponse.json()).status, 'success');
             assert.equal(sentMessages.length, 1);
-            assert.match(sentMessages[0].subject, /טופס ייעוץ ובדיקה רפואית/);
+            assert.match(sentMessages[0].subject, /טופס ייעוץ ובדיקה נוירולוגית/);
             assert.ok(sentMessages[0].html.includes(sampleData.patientName));
             assert.ok(sentMessages[0].html.includes(sampleData.patientPhone));
             assert.ok(!sentMessages[0].html.includes(sampleData.diagnosis));
